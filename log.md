@@ -20,3 +20,11 @@ So, I pivoted to my volleyball idea. Right now, a viewer will see themselves on 
 I struggled a lot with getting the ball to only recognize my hands and not anything else. For awhile, it was picking up on my shoulders, my head, and other parts of my body that were not my hands. I have gotten that part like 95% fixed. I also struggled a lot with the physics of the ball. At first, if I made contact with the ball it would fly off of the screen, giving the viewer no sense of control. It is still not acting exactly how I want it to, but it is much better and actually playable now. 
 
 ![Volleyball Pivot](volleyballpivot.jpeg)
+
+09/30/26: I added a feature that made half of the ball move or compress after contact is made to mimick how an actual volleyball would act. I also added a motion ring and motion trails that are triggered after every contact. Different actions trigger different outputs. For example, any contact made below the chin is registered as a pass. Two hands above the chin is a set, and one hand above the chin is a hit. The ball also now follows the direction of your arm, so if i hit the ball to the left, it will actually move to the left. I worked on the physics of the ball so it acts more like a volleyball, not like a balloon, but still making it playable. I added a sand floor as well, so now if the viewer fails to keep the ball "alive" it will fall onto the floor and roll off of the screen before a new ball drops from the top. 
+
+![VolleyballUpdate](volleyballupdate.png)
+
+As for the flow, I had claude make this one.
+
+![flow](flow.png)

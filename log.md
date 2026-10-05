@@ -28,3 +28,29 @@ I struggled a lot with getting the ball to only recognize my hands and not anyth
 As for the flow, I had claude make this one.
 
 ![flow](flow.png)
+
+
+10/05/26:
+
+![Usertesting](usertest.png)
+
+For my user testing, I did both a non-volleyball player (not pictured), and an actual volleyball player (pictured). The first thing I noticed was that after the ball was in play, both users tried swinging super fast in hopes to hit the ball hard. I had not really implemented this feature because the purpose of the game is to keep the ball alive, not hit it as hard as you can. Also, neither users tried to set or hit the ball. Both users also tried to keep the ball alive after the round was over, as the ball was rolling off of the screen
+
+Solutions:
+
+![Solutions](solutions.png)
+
+The first solution that I implemented was at the top of the screen, I added a note that says, "Keep the ball alive" so that users know that the objective is to keep the ball in play and get as many touches as you can. In addition to having just one big counter in the top right corner, I added individual counters underneath it so that the user can see how many passes, sets, and hits they have and hopefully be able to recognize that they can do more things than just pass. 
+
+![Solutions](solutions2.png)
+
+When I was user testing, I noticed that the difference between passing and hitting got complicated and it was registering passes as hits, and hits as passes. So my solution to this was to make hitting something that can only be done under circumstances. Now, the user can only hit or "spike" the ball after they have completed one pass and one set. This mimicks the pattern of an actual volleyball game. After they complete one pass and one set, they are prompted the word "swing". The user then swings, or "hits" and gets feedback that says "nice hit" and 2 points are added to the counter. 
+This is not pictured, but users also get feedback every so often that says things such as "nice pass" and "good set". I also added a feature where if they do swing really fast, or try to hit the ball really hard, it will fly super fast out of the frame. I also added a marker that shows where it will fall from once the ball does go out of frame. I also added various motion trails and motion rings that range in size based on the speed of the ball.
+
+![Solutions](solutions3.png)
+
+The final solution I added is that now once the ball is dead, it turns black and white to signal to the viewer that can no longer keep it in play. The counter also resets immediately. 
+
+Next: Next, I am going to work on the visuals. I am going to hopefully stylize it a little bit more to make it more visually appealing. 
+
+

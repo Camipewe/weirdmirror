@@ -54,3 +54,14 @@ The final solution I added is that now once the ball is dead, it turns black and
 Next: Next, I am going to work on the visuals. I am going to hopefully stylize it a little bit more to make it more visually appealing. 
 
 
+10/06/26:
+I made the final refinements for this projec
+
+![scoreboard](scoreboard.png)
+
+The picture quality is terrible, but when I played club volleyball, we used these to keep score. This is where the inpiration for the updated counter came from. 
+
+[refinements](refinements.png)
+
+The final changes I made were visual. I changed the court from tile to wood, because the only people who will be able to recognize the tile courts are people that played club volleyball. The wood court is just more of a universal court look, and more recognizable. I also updated the ball and made the lines a bit more realistic, but still pretty gameified. I moved the "keep the ball alive" to the middle of the screen, and it disappears once contact is made with the ball. 
+

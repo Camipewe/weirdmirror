@@ -72,6 +72,5 @@ Below are my demo videos:
 
 [Final demo](finaldemo.mp4)
 
-[Final user demo](finaluserdemo.mp4)
 
 
